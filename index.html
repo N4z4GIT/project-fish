@@ -11,6 +11,8 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/styles.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-md navbar-light container">
@@ -46,9 +48,12 @@
       
       <img
         width="48"
-        height="48"
+        height="48"data-aos="flip-left"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
         src="https://img.icons8.com/fluency/48/fish-food.png"
         alt="fish-food"
+        
       />
       <h1>PESCADERIA DON JOSE</h1>
       <h4 class="px-3">&bull; TU TIENDA ONLINE &bull;</h4>
@@ -132,5 +137,9 @@
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
